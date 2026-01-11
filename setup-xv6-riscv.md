@@ -14,12 +14,10 @@ These packages include essential build tools, the RISC-V cross-compiler, QEMU fo
 ```bash
 git clone <repository-url>
 cd <os-repository>
-```
-In the terminal, navigate to the xv6 operating system folder and run the following commands to build and run xv6:
-```bash
 make clean
 make qemu
 ```
+
 After running make qemu, you should see the following output indicating that the xv6 kernel is booting, which completes the OS installation.
 ```bash
 xv6 kernel is booting
@@ -54,9 +52,12 @@ sudo apt install -y build-essential gcc-riscv64-linux-gnu qemu-system-riscv64 gd
 Go to WSL terminal and clone the repository as the following:
 
 Open the Ubuntu terminal (search for "Ubuntu" in the Start menu) and clone the repository:
+
 ```bash
 git clone <repository-url>
 cd <os-repository>
+make clean
+make qemu
 ```
 
 
