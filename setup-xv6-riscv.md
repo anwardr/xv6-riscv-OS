@@ -36,12 +36,12 @@ Follow the on-screen instructions to complete the installation. This will automa
 
 ## Step 2: Clone the repository inside WSL
 
-> **Important:** You must clone the repository from within the WSL Ubuntu terminal, not from Windows. If you clone the repository to a Windows directory (e.g., `C:\Users\...`), it may not be accessible or work properly from WSL.
+Go to WSL terminal and clone the repository as the following:
 
 Open the Ubuntu terminal (search for "Ubuntu" in the Start menu) and clone the repository:
 ```bash
 git clone <repository-url>
-cd <repository-name>
+cd <os-repository>
 ```
 
 ## Step 3: Open the repository in VS Code
@@ -50,7 +50,7 @@ From the WSL terminal, navigate to the repository directory and open it in VS Co
 ```bash
 code .
 ```
-This will launch VS Code with WSL integration.
+This will launch VS Code with OS files.
 
 ## Step 4: Use the correct terminal in VS Code
 
