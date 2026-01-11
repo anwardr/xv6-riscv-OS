@@ -8,11 +8,10 @@ Please refer to the [setup guide](setup-xv6-riscv.md) for detailed instructions 
 
 Once you have completed the setup, come back here to understand how the lab materials are organized:
 
-## How the lab will be structured
+## How the assignments is structured
 
-The lab materials are organized as follows:
-- Lab instructions and assignments will be posted on OnQ
-- You will complete your work by modifying the OS source code in this directory
+- Assignments instructions along with boilerplate code will be posted on OnQ
+- You will copy the boilerplate code to your local OS folder you cloned and change accordingly instructions 
 - Additional resources and documentation will be distributed as needed throughout the term
 
 ## A brief introduction to xv6-riscv
