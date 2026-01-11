@@ -38,10 +38,9 @@ wsl --install
 ```
 Follow the on-screen instructions to complete the installation. This will automatically install Ubuntu on your machine. You may need to restart your computer after installation.
 
-Now type the following:
+Now type `WSL` in Windows search and type the following in wsl terminal:
 
 ```bash
-wsl
 sudo apt update
 sudo apt install -y build-essential gcc-riscv64-linux-gnu qemu-system-riscv64 gdb-multiarch
 
