@@ -9,10 +9,9 @@ sudo apt install -y build-essential gcc-riscv64-linux-gnu qemu-system-riscv64 gd
 ```
 These packages include essential build tools, the RISC-V cross-compiler, QEMU for RISC-V emulation, and GDB for debugging.
 
-2. Build xv6-riscv: The xv6-riscv source code is already available in this repository. In the terminal, navigate to the root directory of this repository and run the following commands to build and run xv6:
+2. Build xv6-riscv: The xv6-riscv source code is already available in your GitHub repository. Copy the Git clone link of your repository and issue the Git clone command (`git clone 'clone link here'`) in the terminal. In the terminal, navigate to the xv6 operating system folder and run the following commands to build and run xv6:
 ```bash
-// Optional: You can use 'make clean' to clean generated files
-// compile the OS
+make clean
 make qemu
 ```
 After running make qemu, you should see output indicating that the xv6 kernel is booting, such as:
