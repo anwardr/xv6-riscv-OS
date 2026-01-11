@@ -34,6 +34,15 @@ wsl --install
 ```
 Follow the on-screen instructions to complete the installation. This will automatically install Ubuntu on your machine. You may need to restart your computer after installation.
 
+Now type the following:
+
+```bash
+wsl
+sudo apt update
+sudo apt install -y build-essential gcc-riscv64-linux-gnu qemu-system-riscv64 gdb-multiarch
+
+```
+
 ## Step 2: Clone the repository inside WSL
 
 Go to WSL terminal and clone the repository as the following:
@@ -43,6 +52,8 @@ Open the Ubuntu terminal (search for "Ubuntu" in the Start menu) and clone the r
 git clone <repository-url>
 cd <os-repository>
 ```
+
+
 
 ## Step 3: Open the repository in VS Code
 
