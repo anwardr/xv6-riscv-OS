@@ -65,7 +65,7 @@ hart 2 starting
 hart 1 starting
 init: starting sh
 ```
-Exit the running OS by type `Ctl+A+X'
+Exit the running OS by type `Ctl+A+X`    
 
 ## Step 3: Open the repository in VS Code
 
@@ -82,10 +82,8 @@ This will launch VS Code with OS files.
 To switch to the WSL terminal in VS Code:
 1. Open the terminal in VS Code (`Ctrl + `` ` ``)
 2. Type `wsl` in the terminal and press Enter to switch to Ubuntu
-
-## Step 5: Compile and run xv6-riscv
-
-Follow the steps outlined in the "How to compile & run xv6-riscv on Ubuntu" section above to install dependencies and compile xv6-riscv.
+3. `make clean`
+4. `make qemu`
 
 # How to compile and run xv6-riscv on macOS
 
