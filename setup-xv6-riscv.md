@@ -85,7 +85,7 @@ To switch to the WSL terminal in VS Code:
 3. `make clean`
 4. `make qemu`
 
-# How to compile and run xv6-riscv on macOS
+# How to compile and run xv6-riscv on macOS (You may need to explore further)
 
 To compile and run xv6-riscv on macOS, you can use Homebrew to install the necessary dependencies. Follow these steps to set up xv6-riscv on macOS:
 
