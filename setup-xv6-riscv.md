@@ -14,7 +14,7 @@ These packages include essential build tools, the RISC-V cross-compiler, QEMU fo
 make clean
 make qemu
 ```
-After running make qemu, you should see output indicating that the xv6 kernel is booting, such as:
+After running make qemu, you should see the following output indicating that the xv6 kernel is booting, which completes the OS installation.
 ```bash
 xv6 kernel is booting
 hart 2 starting
