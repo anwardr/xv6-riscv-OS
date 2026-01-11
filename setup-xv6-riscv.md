@@ -66,6 +66,7 @@ hart 2 starting
 hart 1 starting
 init: starting sh
 ```
+Exit the running OS by type `Ctl+A+X'
 
 ## Step 3: Open the repository in VS Code
 
